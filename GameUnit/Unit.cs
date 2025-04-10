@@ -1,5 +1,6 @@
 using System;
 using Humanizer;
+
 namespace GameUnit
 {
     public abstract class Unit
@@ -18,7 +19,7 @@ namespace GameUnit
         {
             Console.WriteLine($"This unit moved {movement.ToRoman()}");
         }
-         public virtual string ToString()
+        public override string ToString()
         {
             return $"SettlerUnit: HP={Health} Cost={Cost:f2}";
         }
