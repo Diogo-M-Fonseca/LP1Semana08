@@ -1,11 +1,5 @@
 ﻿﻿using System;
-1 hour ago
-
-Add move, health and cost instances
 using System.Runtime.CompilerServices;
-2 hours ago
-
-Unit changes
 
 namespace GameUnit
 {
